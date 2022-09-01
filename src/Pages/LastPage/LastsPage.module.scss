@@ -1,0 +1,106 @@
+.main {
+    background: #EBEBEB;
+    height: 1921px;
+    width: 1920px;
+    .arrow {
+        position: absolute;
+        top: 53px;
+        left: 70px;
+        cursor: pointer;
+    }
+    .header{
+        top: 0px;
+        position: absolute;
+        .sp1 {
+            margin-right: 66px;
+        }
+        span, p {
+            font-size: 24px;
+          }
+          margin-top: 91px;
+          margin-left: 671px;
+          img {
+            margin-left: 370px;
+            margin-top: 15px;
+            margin-bottom: 27px;
+          }
+    }
+
+    .content {
+        width: 1226px;
+        height: 1571px;
+        background-color: white;
+        margin-left: 347px;
+        margin-right: 347px;
+        margin-top: 157px;
+        .container {
+            margin-left: 174px;
+            margin-right: 174px;
+            width: 878px;
+            .form{
+                padding-top: 68px;
+                
+                .file {
+                    justify-content: center;
+                text-align: center;
+                    background: #F6F6F6;
+                    width: 878px;
+                    height: 423px;
+                    border: 2px dashed #4386A9;
+                    border-radius: 18px;
+                    input{
+                        display: none;
+                        z-index: 2;
+                    }
+                    p{
+                        font-size: 20px;
+                        color: #62A1EB;
+                        margin-top: 107px;
+                        margin-bottom: 65px;
+                    }
+                    label{
+                        padding: 18px 71px;
+                        background: #62A1EB;
+                        border: 0;
+                        color: white;
+                        font-size: 21px;
+                    }
+                }
+                .lname{
+                    margin-top:50px;
+                    border-bottom:2px solid #C7C7C7;
+                    padding-bottom: 42px;
+                    div {
+                        display: flex;
+                        margin-top: 8px;
+                    }
+                    label{
+                        font-size: 21px;
+                    }
+                    p{
+                        font-size: 21px;
+                        color: #00000099;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.inp1{
+    height: 60px;
+    width: 407px;
+    border-radius: 8px;
+    border: 1.8px solid #8AC0E2;
+    font-size: 21px;
+}
+.sel{
+    height: 67px;
+    width: 408px;
+    border-radius: 8px;
+    background: #EBEBEB;
+    border: 0;
+    border-radius: 0;
+    font-size: 21px;
+    margin-left: 63px;
+}
